@@ -6,9 +6,9 @@ Demo code for migrating data from CSV file to a database (SQLite)
 - [x] Edit `config.properties` and specify the directories, url, and filename.
 
    * `dbUrl` - database URL
-   * `logFilePath` - the directory where the log file will be written. e.g (C:\\logs\\)
-   * `importFilePath` - the directory where the import file is located. e.g (C:\\import\\)
-   * `badFilePath` - the directory where the record that does not match the column count will be written to e.g (C:\\badfiles\\)
+   * `logFilePath` - the directory where the log file will be written. e.g (C:\\migration\\logs\\)
+   * `importFilePath` - the directory where the import file is located. e.g (C:\\migration\\import\\)
+   * `badFilePath` - the directory where the record that does not match the column count will be written to e.g (C:\\migration\\badfiles\\)
    * `batchSize` - the number of records you'd like to send per batch. Must be greater than zero.
 - [x] Java 8. This is written in Java 8.
 - [x] SQLite database with `import` table. The script for the table is in the sql folder in this repo.
