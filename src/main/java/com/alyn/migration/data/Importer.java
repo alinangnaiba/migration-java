@@ -41,7 +41,7 @@ public class Importer {
     }
 
     public int save(Connection connection, List<String[]> data) {
-        String sql = "INSERT INTO import(A,B,C,D,E,F,G,H,I,J) VALUES(?,?,?,?,?,?,?,?,?,?)";
+        String sql = "INSERT INTO import(a,b,c,d,e,f,g,h,i,j) VALUES(?,?,?,?,?,?,?,?,?,?)";
         int[] result = null;
         try {
             connection.setAutoCommit(false);
